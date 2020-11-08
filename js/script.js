@@ -42,7 +42,7 @@ const ReadLS = () => { //se encarga de leer el Ls y cargarlo en el html
     }
 }
 
-const DeleteLS = (idproducto) =>{ //se encarga de dar de baja un producto
+const DeleterLS(valor) = (idproducto) =>{ //se encarga de dar de baja un producto
     let arrayIndex = FindArrayIndex(idproducto);
     arrayProductos.splice(arrayIndex, 1);
     LoadLS();
